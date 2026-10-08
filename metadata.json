@@ -1,0 +1,6 @@
+{
+  "name": "ThaiSar - အခန်း (၁)",
+  "description": "Thai listening and speaking for Myanmar learners — Unit 1",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "ThaiSar · အခန်း (၁)",
+  "short_name": "ThaiSar",
+  "description": "Thai listening and speaking for Myanmar learners — Unit 1",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f3fa",
+  "theme_color": "#4d1060",
+  "icons": [
+    {
+      "src": "/school-logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

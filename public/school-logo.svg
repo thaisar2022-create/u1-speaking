@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="108" height="108">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4d1060" />
+      <stop offset="100%" stop-color="#2a0836" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff566" />
+      <stop offset="50%" stop-color="#ffd700" />
+      <stop offset="100%" stop-color="#e6b800" />
+    </linearGradient>
+  </defs>
+  <circle cx="54" cy="54" r="52" fill="url(#grad)" stroke="url(#gold)" stroke-width="3"/>
+  <circle cx="54" cy="54" r="46" fill="none" stroke="rgba(255, 239, 0, 0.35)" stroke-width="1.5" stroke-dasharray="3 3"/>
+  
+  <!-- Stylized Open Book & Crown / Speaking emblem -->
+  <path d="M54 44 C46 36 34 38 28 42 L28 72 C34 68 46 66 54 74 C62 66 74 68 80 72 L80 42 C74 38 62 36 54 44 Z" fill="none" stroke="url(#gold)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M54 44 L54 74" fill="none" stroke="url(#gold)" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Ribbon / Thai letter Th / T S monogram -->
+  <text x="54" y="32" font-family="system-ui, sans-serif" font-weight="900" font-size="14" fill="#ffffff" text-anchor="middle" letter-spacing="1.5">THAI</text>
+  <text x="54" y="90" font-family="system-ui, sans-serif" font-weight="900" font-size="12" fill="url(#gold)" text-anchor="middle" letter-spacing="2">SAR</text>
+  
+  <!-- Center Accent Stars -->
+  <circle cx="54" cy="58" r="2.5" fill="#fff" />
+</svg>
