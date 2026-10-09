@@ -1032,11 +1032,13 @@ export default function App() {
           <div className="brandwrap">
             <img
               className="school-logo"
-              src="/school-logo.svg"
+              src="https://lh3.googleusercontent.com/pw/AP1GczPYuXPvxRvzAw8JVWIVM8_R2YbM0vyNXbHY7rIHYVNEovOCmVSYeDUwZiyfkD139rCXN9dFdv4wWy5IB7hexjowFwgIyeqga24S30UJfBi19RttJpw=w2400"
               alt="ThaiSar school logo"
               onError={(e) => {
-                // Fallback to inline SVG if needed
-                (e.currentTarget as HTMLElement).style.display = 'none';
+                const target = e.currentTarget as HTMLImageElement;
+                if (!target.src.includes('school-logo.svg')) {
+                  target.src = '/school-logo.svg';
+                }
               }}
             />
             <div>
